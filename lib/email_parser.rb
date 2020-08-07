@@ -15,6 +15,6 @@ class EmailAddressParser
      |address|
      address.split(",")
    end
-   flatten
+   .flatten.uniq
   end
 end
